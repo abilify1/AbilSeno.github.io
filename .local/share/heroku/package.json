@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "oclif": {
+    "schema": 1,
+    "plugins": [
+      {
+        "name": "heroku-builds",
+        "tag": "latest",
+        "type": "user"
+      }
+    ]
+  },
+  "dependencies": {
+    "heroku-builds": "^0.0.29"
+  }
+}

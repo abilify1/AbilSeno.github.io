@@ -1,0 +1,87 @@
+2020-12-14T02:22:47.521Z Error: Missing required flag:
+2020-12-14T02:22:47.521Z  -a, --app APP  app to run command against
+2020-12-14T02:22:47.521Z See more help with --help
+2020-12-14T02:22:47.521Z     at validateFlags (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/parser/lib/validate.js:52:23)
+2020-12-14T02:22:47.521Z     at Object.validate (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/parser/lib/validate.js:56:5)
+2020-12-14T02:22:47.521Z     at Object.parse (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/parser/lib/index.js:28:7)
+2020-12-14T02:22:47.521Z     at DomainsIndex.parse (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/command/lib/command.js:83:41)
+2020-12-14T02:22:47.521Z     at DomainsIndex.run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/lib/commands/domains/index.js:50:32)
+2020-12-14T02:22:47.521Z     at DomainsIndex._run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/command/lib/command.js:44:31)
+2020-12-14T02:23:21.712Z Error: Missing required flag:
+2020-12-14T02:23:21.712Z  -a, --app APP  parent app used by review apps
+2020-12-14T02:23:21.712Z See more help with --help
+2020-12-14T02:23:21.712Z     at validateFlags (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/parser/lib/validate.js:52:23)
+2020-12-14T02:23:21.712Z     at Object.validate (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/parser/lib/validate.js:56:5)
+2020-12-14T02:23:21.712Z     at Object.parse (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/parser/lib/index.js:28:7)
+2020-12-14T02:23:21.712Z     at Run.parse (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/command/lib/command.js:83:41)
+2020-12-14T02:23:21.712Z     at Run.run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/lib/commands/run/index.js:12:38)
+2020-12-14T02:23:21.712Z     at Run._run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/command/lib/command.js:44:31)
+2020/12/14 02:29:25 Error: Expected response to be successful, got 422
+    at Request.handleFailure [as _handleFailure] (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/heroku-client/lib/request.js:255:11)
+    at Request.<anonymous> (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at /data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/heroku-client/lib/request.js:148:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2020/12/14 02:29:25 {"id":"invalid_params","message":"You've reached the app limit of 5 apps for unverified accounts. Delete some apps or add a credit card to verify your account."}
+2020/12/14 02:34:11 Error: Error opening web browser.
+Error: Exited with code 3
+
+Manually visit https://desolate-reaches-48217.herokuapp.com/ in your browser.
+    at /data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/heroku-cli-util/lib/open.js:12:16
+    at ChildProcess.<anonymous> (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/opn/index.js:86:5)
+    at Object.onceWrapper (events.js:422:26)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-12-14T02:45:40.343Z Error: Couldn't find that app.
+2020-12-14T02:45:40.343Z Error ID: not_found
+2020-12-14T02:45:40.343Z     at Function.request (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@heroku-cli/command/lib/api-client.js:106:27)
+2020-12-14T02:45:40.343Z     at async GitRemote.run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-git/lib/commands/git/remote.js:14:31)
+2020-12-14T02:45:40.343Z     at async GitRemote._run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2020-12-14T02:45:40.343Z     at async Config.runCommand (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/config/lib/config.js:151:9)
+2020-12-14T02:45:40.343Z     at async Main.run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+2020-12-14T02:45:40.343Z     at async Main._run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2020-12-14T05:13:44.313Z Warning: builds:cancel is not a heroku command.
+2020-12-14T05:13:44.313Z     at Object.warn (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/errors/lib/index.js:33:15)
+2020-12-14T05:13:44.313Z     at Object.warn (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/config/lib/config.js:115:42)
+2020-12-14T05:13:44.313Z     at Object.hook (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/plugin-not-found/lib/index.js:25:10)
+2020-12-14T05:13:44.313Z     at async /data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/config/lib/config.js:129:21
+2020-12-14T05:13:44.313Z     at async Promise.all (index 0)
+2020-12-14T05:13:44.313Z     at async Promise.all (index 33)
+2020-12-14T05:13:44.313Z     at async Config.runHook (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/config/lib/config.js:139:9)
+2020-12-14T05:13:44.313Z     at async Config.runCommand (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/config/lib/config.js:146:13)
+2020-12-14T05:13:44.313Z     at async Main.run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+2020-12-14T05:13:44.313Z     at async Main._run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2020-12-14T05:13:47.633Z Error: Run heroku help for a list of available commands.
+2020-12-14T05:13:47.633Z     at Object.error (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/errors/lib/index.js:22:17)
+2020-12-14T05:13:47.633Z     at Object.error (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/config/lib/config.js:113:30)
+2020-12-14T05:13:47.633Z     at Object.hook (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/plugin-not-found/lib/index.js:39:10)
+2020-12-14T05:13:47.633Z     at async /data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/config/lib/config.js:129:21
+2020-12-14T05:13:47.633Z     at async Promise.all (index 0)
+2020-12-14T05:13:47.633Z     at async Promise.all (index 33)
+2020-12-14T05:13:47.633Z     at async Config.runHook (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/config/lib/config.js:139:9)
+2020-12-14T05:13:47.633Z     at async Config.runCommand (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/config/lib/config.js:146:13)
+2020-12-14T05:13:47.633Z     at async Main.run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+2020-12-14T05:36:18.448Z
+2020-12-14T06:35:33.370Z Error: HTTP Error 404 for GET https://cli-assets.heroku.com/android-arm64
+2020-12-14T06:35:33.370Z <html>
+2020-12-14T06:35:33.370Z <head><title>404 Not Found</title></head>
+2020-12-14T06:35:33.370Z <body>
+2020-12-14T06:35:33.370Z <h1>404 Not Found</h1>
+2020-12-14T06:35:33.370Z <ul>
+2020-12-14T06:35:33.370Z <li>Code: NoSuchKey</li>
+2020-12-14T06:35:33.370Z <li>Message: The specified key does not exist.</li>
+2020-12-14T06:35:33.370Z <li>Key: android-arm64</li>
+2020-12-14T06:35:33.371Z <li>RequestId: BFEA35A997A67F3E</li>
+2020-12-14T06:35:33.371Z <li>HostId: nlJ2xt/KKu1Ew/ighgxDHjYmtqv81X4CTEewKo6oh6ZeUJi5PbMAZHQeWnd6DuVRf+qnq+p9dis=</li>
+2020-12-14T06:35:33.371Z </ul>
+2020-12-14T06:35:33.371Z <hr/>
+2020-12-14T06:35:33.371Z </body>
+2020-12-14T06:35:33.371Z </html>
+2020-12-14T06:35:33.371Z     at HTTP._request (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/http-call/lib/http.js:215:19)
+2020-12-14T06:35:33.371Z     at async Function.request (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/http-call/lib/http.js:162:9)
+2020-12-14T06:35:33.371Z     at async UpdateCommand.fetchManifest (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/plugin-update/lib/commands/update.js:46:28)
+2020-12-14T06:35:33.371Z     at async UpdateCommand.run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/plugin-update/lib/commands/update.js:26:26)
+2020-12-14T06:35:33.371Z     at async UpdateCommand._run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2020-12-14T06:35:33.371Z     at async Config.runCommand (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/config/lib/config.js:151:9)
+2020-12-14T06:35:33.371Z     at async Main.run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+2020-12-14T06:35:33.371Z     at async Main._run (/data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@oclif/command/lib/command.js:44:20)
